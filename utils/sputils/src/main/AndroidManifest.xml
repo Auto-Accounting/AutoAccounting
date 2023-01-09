@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.ankio.utils">
+    <application>
+        <provider
+            android:name=".MultiprocessSharedPreferences"
+            android:authorities="net.ankio.utils.provider"
+            android:exported="true" />
+    </application>
+</manifest>

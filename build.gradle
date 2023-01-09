@@ -1,0 +1,20 @@
+buildscript {
+    ext {
+        kotlin_version = '1.7.21'
+        compose_version = '1.4.0-alpha02'
+        complie_version = 33
+        min_sdk = 26
+        agp_version = '7.2.2'
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.2.2' apply false
+    id 'com.android.library' version '7.2.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
+    id 'org.jetbrains.kotlin.jvm' version '1.7.21' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
